@@ -28,6 +28,12 @@ variable "associate_public_ip" {
     default = false
 }
 
-variable "vpc_id" {}
+variable "vpc_id" {
+    description = "Id of the VPC"
+    type = string
+}
 
-variable "iam_profile" {}
+variable "iam_profile" {
+    description = "IAM Role Name to attach to the EC2 to allow SSM"
+    type = string
+}

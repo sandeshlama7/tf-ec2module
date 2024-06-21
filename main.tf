@@ -13,5 +13,5 @@ data "aws_vpc" "vpc" {
 }
 
 data "aws_iam_instance_profile" "iam" {
-    name = "SSM-Sandesh"
+  name = "SSM-Sandesh"
 }
